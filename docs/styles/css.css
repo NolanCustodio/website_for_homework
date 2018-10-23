@@ -1,3 +1,29 @@
-body {
+#body {
+    font-famliy: Helvetica, "heletica Neue", SansSerif;
     background-color: blue;
 }
+
+#box1 {
+
+}
+
+#box2 {
+
+}
+
+#box3 {
+
+}
+
+#box4 {
+
+}
+
+.box {
+    height: 36px;
+    width: 36px;
+    border: black 1px solid;
+    padding: 7px;
+}
+
+#wrapper
