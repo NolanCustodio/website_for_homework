@@ -1,22 +1,26 @@
-#body {
+body {
     font-famliy: Helvetica, "heletica Neue", SansSerif;
-    background-color: blue;
 }
 
 #box1 {
-
+    background-color: darkgreen;
+    float: left;
 }
 
 #box2 {
-
+    background-color: orange;
+    floar: left;
 }
 
 #box3 {
-
+    background-color: yellow;
+    clear: left;
+    float: left;
 }
 
 #box4 {
-
+    background-color: mediumblue;
+    float: left;
 }
 
 .box {
@@ -26,4 +30,43 @@
     padding: 7px;
 }
 
-#wrapper
+#wrapper {
+    width: 960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    background-color: gray;
+    height; 25px;
+    line-height: 25px;
+}
+
+#menu ul {
+    margin: 0px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#content {
+    width: 544px;
+    background-color: brown;
+    float: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 27px;
+}
+
+#sidebar {
+    background-color: blueviolet;
+    width: 366px;
+    float: right;
+}
+
+#footer {
+    background-color: steelblue;
+    clear: both;
+}
